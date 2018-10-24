@@ -14,7 +14,7 @@ public class HolidayWsExample {
 		String Payload="<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:hs=\"http://www.holidaywebservice.com/HolidayService_v2/\"> \r\n" + 
 				"<soapenv:Body>\r\n" + 
 				"    <hs:GetHolidaysAvailable>\r\n" + 
-				"        <hs:CountryCode>UnitedStates</hs:CountryCode>\r\n" + 
+				"        <hs:CountryCode>Canada</hs:CountryCode>\r\n" + 
 				"	</hs:GetHolidaysAvailable>\r\n" + 
 				"</soapenv:Body>\r\n" + 
 				"</soapenv:Envelope>";
