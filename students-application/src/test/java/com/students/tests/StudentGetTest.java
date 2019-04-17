@@ -45,7 +45,6 @@ public void getStudentInfor() {
 	 System.out.println(response.body().prettyPrint());
 	
 	*/
-	
 	 Response response=given()
 	.param("programme", "Financial Analysis")
 	.param("limit", "2")
